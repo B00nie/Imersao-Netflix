@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="assets/Netflix-new-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Quem está assistindo?</h1>
+        <button class="theme-toggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+            <span class="sr-only">Alternar tema</span>
+        </button>
+    </header>
+
+    <main>
+        <section aria-labelledby="titulo-perfis">
+            <h2 id="titulo-perfis" hidden>Selecione um perfil</h2>
+            <ul class="profiles">
+                <li class="profile">
+                    <a href="/catalogo/catalogo.html" class="profile_name">
+                        <figure>
+                            <img src="/assets/Profile1.png" alt="Avatar do Perfil 1">
+                            <figcaption>Katia</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="/catalogo/catalogo.html" class="profile_name">
+                    <figure>
+                        <img src="/assets/Profile2.png" alt="Avatar do Perfil 2">
+                        <figcaption>Ana</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="/catalogo/catalogo.html" class="profile_name">
+                        <figure>
+                            <img src="/assets/Profile3.png" alt="Avatar do Perfil 3">
+                            <figcaption>Carlos</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="profile">
+                    <a href="/catalogo/catalogo.html" class="profile_name">
+                    <figure>
+                        <img src="/assets/Profile4.png" alt="Avatar do Perfil 4">
+                        <figcaption>Taiga</figcaption>
+                    </figure>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
